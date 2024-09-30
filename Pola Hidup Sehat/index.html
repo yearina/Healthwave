@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthwave</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/bab4b1e96f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="title">
+                <img src="img/healthy-life-logo.png" alt="healthy-life-logo" class="logo">
+                <h1>Healthwave</h1>
+            </div>
+           <div class="dropdown">
+                <img onclick="toggleDropdown()" class="dropbtn hidden" src="img/menu.png" alt="menu">
+                <nav>
+                    <ul id="myDropdown" class="dropdown-content">
+                        <li><a href="#makanan">Makanan</a></li>
+                        <li><a href="#olahraga">Olahraga</a></li>
+                        <li><a href="#pola">Pola</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+        <div class="jumbotron">
+            <q>Kehidupan sehat bukan hanya tentang makanan yang kita konsumsi atau latihan fisik yang kita lakukan. Ini tentang membentuk pola pikir yang memprioritaskan perawatan diri, keseimbangan, dan harmoni dalam setiap aspek kehidupan kita. 
+                Ini tentang memberi makan tubuh kita dengan makanan sehat, bergerak dengan cara yang memberi energi, dan memupuk hubungan yang mengangkat semangat kita.
+                Investasikan dalam kesehatan Anda hari ini, nikmati hasilnya untuk seumur hidup. </q>
+            <img src="img/workout.png" alt="workout" class="workout">    
+        </div> 
+    </header>
+
+    <main>
+         <div class="content">
+            <article id="makanan" >
+                <h2>Makanan bergizi</h2>
+                <div class="makanan-container">
+                    <section class="card" data-name="m-1"> 
+                        <img src="img/carbohydrates.png" alt="carbohydrates" class="makanan"><br><br>
+                        <h3>Makanan Pokok</h3>   
+                    </section>
+                    <section class="card" data-name="m-2">  
+                        <img src="img/proteins.png" alt="protein" class="makanan"><br><br>
+                        <h3>Lauk Pauk</h3>   
+                    </section>
+                    <section class="card" data-name="m-3">
+                        <img src="img/vegetable.png" alt="vegetable" class="makanan"><br><br>
+                        <h3>Sayur-Sayuran</h3>
+                    </section>
+                    <section class="card" data-name="m-4"> 
+                        <img src="img/fruits.png" alt="fruits" class="makanan"><br><br> 
+                        <h3>Buah-Buahan</h3>   
+                    </section>
+                    <section class="card" data-name="m-5">
+                            <img src="img/milk-bottle.png" alt="milk-bottle" class="makanan"><br><br> 
+                            <h3>Susu</h3>
+                    </section>
+                </div>
+                
+                <div class="makanan-preview">
+                    <section class="preview" data-target="m-1">  
+                        <i class="fas fa-times"></i>
+                        <h3>Makanan Pokok</h3>
+                        <img src="img/carbohydrates.png" alt="carbohydrates" class="makanan">
+                        <p>
+                            Salah satu dari empat pilar dalam konsep makanan 4 sehat 5 sempurna adalah makanan pokok, yang merupakan sumber karbohidrat yang seimbang. Karbohidrat, sebagai salah satu kelompok makanan dasar, memegang peran penting dalam pola makan yang sehat. 
+                            Meskipun merupakan komponen dasar, karbohidrat memiliki peran yang signifikan dalam menyediakan energi utama bagi tubuh manusia. Contoh makanan pokok yaitu asi, roti, sereal, ubi, dan sebagainya.
+                        </p>
+                    </section>
+                    <section class="preview" data-target="m-2">
+                        <i class="fas fa-times"></i>
+                        <h3>Lauk Pauk</h3>
+                        <img src="img/proteins.png" alt="protein" class="makanan">
+                        <p>
+                            Lauk pauk merupakan kelompok makanan yang menjadi sumber protein, yang penting untuk pertumbuhan, perbaikan jaringan tubuh, dan fungsi-fungsi penting lainnya dalam tubuh manusia. 
+                            Dalam konsep "makanan 4 sehat 5 sempurna," lauk pauk biasanya terdiri dari protein hewani dan nabati. Lauk pauk dari sumber protein hewani meliputi daging, ikan, ayam, telur, dan produk-produk susu seperti susu, keju, dan yogurt. 
+                            Lauk pauk dari sumber protein nabati meliputi tahu, tempe, kacang-kacangan (seperti kacang hijau, kacang merah, dan kedelai), serta produk-produk olahannya seperti susu kedelai dan keju nabati.
+                        </p>
+                    </section>
+                    <section class="preview" data-target="m-3">
+                        <i class="fas fa-times"></i>
+                        <h3>Sayur-Sayuran</h3>
+                        <img src="img/vegetable.png" alt="vegetable" class="makanan">
+                        <p>
+                            Sayur-sayuran adalah bagian penting dari makanan 4 sehat 5 sempurna karena menyediakan sejumlah nutrisi penting yang diperlukan oleh tubuh manusia.
+                            Sayur-sayuran kaya akan serat, yang penting untuk kesehatan pencernaan. Sayur-sayuran mengandung berbagai jenis vitamin yang penting untuk kesehatan tubuh
+                            Sayur-sayuran juga mengandung berbagai mineral yang diperlukan oleh tubuh. Contoh sayur-Sayuran diantaranya bayam, wortel, brokoli, kubis, dan lain-lain.
+                        </p>
+                    </section>
+                    <section class="preview" data-target="m-4">
+                        <i class="fas fa-times"></i>
+                        <h3>Buah-buahan</h3>
+                        <img src="img/fruits.png" alt="fruits" class="makanan">
+                        <p>
+                            Dalam konsep "makanan 4 sehat 5 sempurna," buah-buahan merupakan salah satu pilar penting yang memberikan kontribusi besar terhadap kesehatan tubuh.
+                            Buah-buahan mengandung serat, baik yang larut maupun yang tidak larut, yang penting untuk menjaga kesehatan pencernaan dan mengatur kadar gula darah, 
+                            mengandung berbagai jenis vitamin dan mineral yang penting untuk kesehatan tubuh,  kaya akan antioksidan, seperti vitamin C, vitamin E, dan beta-karoten, yang membantu melawan radikal bebas dalam tubuh dan mengurangi risiko penyakit kronis serta penuaan dini.
+                            Buah-buahan umumnya rendah kalori dan lemak. Contoh buah-buahan untuk dimakan setiap harinya yaitu mangga, apel, alpukat, nanas, dan lain-lain.
+                        </p>
+                    </section>
+                    <section class="preview" data-target="m-5">
+                        <i class="fas fa-times"></i>
+                        <h3>Susu</h3>
+                        <img src="img/milk-bottle.png" alt="milk-bottle" class="makanan">
+                        <p>
+                            Susu memainkan peran penting dalam penyediaan nutrisi penting seperti kalsium, protein, fosfor, serta mineral dan vitamin lain yang esensial bagi kesehatan tubuh. Konsumsi susu memiliki manfaat yang beragam, termasuk tetapi tidak terbatas pada pencegahan osteoporosis dan patah tulang. 
+                            Selain itu, protein yang terdapat dalam susu berperan dalam pembentukan dan perbaikan jaringan tubuh, termasuk tulang dan otot, yang penting untuk kesehatan dan fungsi tubuh yang optimal.
+                            Minum susu juga diyakini dapat membantu menjaga berat badan yang sehat dan ideal. Kandungan protein dan lemak dalam susu memberikan rasa kenyang lebih lama.
+                        </p>
+                    </section>
+                </div>
+                
+
+            </article> 
+
+            <article id="olahraga">
+                <h2>Olahraga</h2><br>
+                <div class="olahraga">
+                    <section class="section-container">
+                        <div class="center"> 
+                            <h3>Lari</h3><br>
+                            <img src="img/exercise.png" alt="exercise"><br>
+                        </div>
+                        <p>
+                            Lari adalah olahraga kardiovaskular yang efektif dalam membakar kalori, meningkatkan kekuatan jantung, dan meningkatkan kebugaran fisik secara umum. Ini juga dapat membantu mengurangi stres, meningkatkan mood, dan memperbaiki kualitas tidur. Anda dapat memulai dengan lari di tempat atau di luar ruangan, dan secara bertahap meningkatkan jarak dan intensitasnya seiring waktu.
+                        </p>
+                    </section>
+                    <section class="section-container"> 
+                        <div class="center">
+                            <br><h3>Bersepeda</h3><br>
+                            <img src="img/bicycle.png" alt="bicycle"><br>
+                        </div>
+                        <p>
+                            Bersepeda adalah olahraga yang rendah dampak tetapi efektif dalam meningkatkan kesehatan kardiovaskular, kekuatan otot, dan keseimbangan. Mengayuh sepeda juga membantu memperkuat otot-otot kaki dan meningkatkan fleksibilitas. Anda bisa mencoba bersepeda di luar ruangan di jalur sepeda, atau menggunakan sepeda statis di gym atau di rumah.
+                        </p>
+                    </section>
+                    <section class="section-container"> 
+                        <div class="center">
+                            <br><h3>Renang</h3><br>
+                            <img src="img/swimming.png" alt="swimming"><br>
+                        </div>
+                        <p>
+                            Renang adalah olahraga seluruh tubuh yang melibatkan hampir semua kelompok otot. Hal ini meningkatkan kekuatan otot, kesehatan jantung, dan fleksibilitas, sambil mengurangi tekanan pada sendi. Renang juga bisa menjadi olahraga yang menyenangkan dan menenangkan. Berenang di kolam renang lokal atau di pantai merupakan cara yang bagus untuk menciptakan kebugaran secara menyeluruh.
+                        </p>
+                    </section>
+                </div>
+            </article>
+
+            <article id="pola">
+                <h2>Pola Hidup</h2><br><br>
+                <div class="pola">
+                    <section class="sehat">
+                        <div class="center">
+                            <h3>Pola Sidup sehat</h3><br>
+                            <img src="img/healthy.png" alt="healthlife"><br>
+                        </div>
+                        <h4>Pola makan</h4>
+                        <p>
+                            Makanan seimbang dan bergizi, banyak sayur-sayuran, buah, biji-bijian, dan protein sehat seperti ikan dan kacang-kacangan.
+                        </p>
+                        <h4>Aktivitas Fisik</h4>
+                        <p>
+                            Melakukan latihan kardiovaskular dan kekuatan rutin, seperti berlari, bersepeda, atau renang.
+                        </p>
+                        <h4>Kebiasaan Hidup Sehari-Hari</h4>
+                        <p>
+                            Tidur yang cukup (7-9 jam per malam), mengelola stres dengan baik, dan menghindari kebiasaan merokok dan minuman beralkohol berlebihan.
+                        </p>
+                        <h4>Kesejahteraan Mental dan Emosional</h4>
+                        <p>
+                            Tubuh bugar, energi positif, kesehatan mental yang baik, dan hubungan sosial yang kuat.Tubuh bugar, energi positif, kesehatan mental yang baik, dan hubungan sosial yang kuat.
+                        </p>  
+                    </section>
+
+                    <section class="buruk">
+                        <div class="center">
+                            <h3>Pola Hidup Buruk</h3><br>
+                            <img src="img/obesity.png" alt="obesity"><br>
+                        </div>
+                        <h4>Pola makan</h4>
+                        <p>
+                            Konsumsi makanan tinggi lemak, gula, dan garam. Jarang mengonsumsi sayur-sayuran dan buah.
+                        </p>
+                        <h4>Aktivitas Fisik</h4>
+                        <p>
+                            Gaya hidup yang kurang aktif, lebih banyak waktu dihabiskan dalam duduk, dan jarang berolahraga.
+                        </p>
+                        <h4>Kebiasaan Hidup Sehari-Hari</h4>
+                        <p>
+                            Kurang tidur atau tidur berlebihan, merokok, konsumsi alkohol berlebihan, serta mengonsumsi obat-obatan terlarang.
+                        </p>
+                        <h4>Kesejahteraan Mental dan Emosional</h4>
+                        <p>
+                            Tubuh sering merasa lelah, stres terus-menerus, masalah kesehatan mental dan emosional.
+                        </p>
+                    </section>
+                </div>   
+            </article>
+
+            <aside id="kontak">   
+                <h2>Kontak</h2><br>
+                <img src="img/healthy-life-logo.png" alt="logo"><br>
+                <a href="mailto:yearina.mustika@gmail.com"><i class="fa-solid fa-envelope fa-2x" style="color: #f3a333;"></i></a>
+                <a href="www.linkedin.com/in/yearina-zalzalati-mustika"><i class="fa-brands fa-linkedin fa-2x" style="color: #f3a333;"></i></a>
+                <a href="https://www.instagram.com/yeri.mstka/"><i class="fa-brands fa-instagram fa-2x" style="color: #f3a333;"></i></a>   
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>Submission Belajar Dasar Pemrograman Web &#169; 2024, Yearina Mustika</p>
+    </footer>
+    
+</body>
+</html>
